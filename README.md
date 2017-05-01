@@ -122,6 +122,27 @@ cmake .. -G "Unix Makefiles" -DOpenCV_DIR=/mingw64/share/OpenCV/lib
 
 There is known bug with boost.python in mingw that causes the python bindings to not build in this platform.
 
+## Dependencies
+
+### dev tools
+```shell
+sudo apt-get install -y git cmake htop binutils build-essential pkg-config gdb valgrind
+```
+### for compiling qt stuff
+```shell
+sudo apt-get install -y qt5-default libqt4-opengl-dev libqt5opengl5-dev
+```
+### for compiling boost stuff
+```shell
+sudo apt-get install -y libboost-all-dev
+```    
+### for compiling opengl stuff
+```shell
+sudo apt-get install -y freeglut3 freeglut3-dev libgl1-mesa-dev libglew-dev libglu1-mesa-dev  mesa-common-dev libxmu-dev libxi-dev 
+```
+
+### OpenCV3 
+
 ## Howto: Where to put header files?
 
 Headers that should be visible from other projects are put in
