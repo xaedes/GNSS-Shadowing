@@ -1,0 +1,178 @@
+version 1.0.0
+revision cfa5100f0cbee1ac4c3a991cf333e5ab50bd9848
+Start time: Sat Apr 01 16:15:00 2017
+
+m_originENU.position[0] -1.13687e-013
+m_originENU.position[1] -20.7325
+m_originENU.position[2] 6364.82
+width: 40 height: 80
+start 52.141,11.6408
+goal 52.1399,11.6452
+plan path from [10, 23] to [22, 53]
+distance: 32.311
+Planning parameters:
+ maxHorizontalDOP 5
+ costPerHorizontalDOP -1
+ costPerGridStep 1
+ costPerTimeStep 1
+ costPerTimeTotal 0
+ timeStepsPerStep 0
+gnssShadowing::mapping::DOPMap& gnssShadowing::mapping::LazyDOPMaps::computeDOPMap(int) timeStep 0
+path length: 75
+timestep: 0 x: 10 y: 23	dop: 1.18085	lat,long 52.140967,11.640760	start	Sat Apr 01 16:15:00 2017
+timestep: 0 x: 11 y: 23	dop: 1.508980	lat,long 52.140877,11.640760	south	Sat Apr 01 16:15:00 2017
+timestep: 0 x: 12 y: 23	dop: 1.307900	lat,long 52.140787,11.640760	south	Sat Apr 01 16:15:00 2017
+timestep: 0 x: 12 y: 22	dop: 1.598482	lat,long 52.140787,11.640614	west	Sat Apr 01 16:15:00 2017
+timestep: 0 x: 13 y: 22	dop: 1.194355	lat,long 52.140697,11.640614	south	Sat Apr 01 16:15:00 2017
+timestep: 0 x: 14 y: 22	dop: 0.891353	lat,long 52.140607,11.640614	south	Sat Apr 01 16:15:00 2017
+timestep: 0 x: 14 y: 23	dop: 0.767346	lat,long 52.140607,11.640760	east	Sat Apr 01 16:15:00 2017
+timestep: 0 x: 14 y: 24	dop: 0.621255	lat,long 52.140607,11.640906	east	Sat Apr 01 16:15:00 2017
+timestep: 0 x: 15 y: 24	dop: 1.173477	lat,long 52.140517,11.640906	south	Sat Apr 01 16:15:00 2017
+timestep: 0 x: 15 y: 25	dop: 3.326019	lat,long 52.140517,11.641052	east	Sat Apr 01 16:15:00 2017
+timestep: 0 x: 16 y: 25	dop: 3.326019	lat,long 52.140428,11.641052	south	Sat Apr 01 16:15:00 2017
+timestep: 0 x: 16 y: 24	dop: 0.772856	lat,long 52.140428,11.640906	west	Sat Apr 01 16:15:00 2017
+timestep: 0 x: 17 y: 24	dop: 0.902516	lat,long 52.140338,11.640906	south	Sat Apr 01 16:15:00 2017
+timestep: 0 x: 18 y: 24	dop: 0.760170	lat,long 52.140248,11.640906	south	Sat Apr 01 16:15:00 2017
+timestep: 0 x: 19 y: 24	dop: 0.701938	lat,long 52.140158,11.640906	south	Sat Apr 01 16:15:00 2017
+timestep: 0 x: 20 y: 24	dop: 1.520070	lat,long 52.140068,11.640906	south	Sat Apr 01 16:15:00 2017
+timestep: 0 x: 20 y: 25	dop: 1.547861	lat,long 52.140068,11.641052	east	Sat Apr 01 16:15:00 2017
+timestep: 0 x: 20 y: 26	dop: 0.641932	lat,long 52.140068,11.641198	east	Sat Apr 01 16:15:00 2017
+timestep: 0 x: 21 y: 26	dop: 1.476297	lat,long 52.139978,11.641198	south	Sat Apr 01 16:15:00 2017
+timestep: 0 x: 22 y: 26	dop: 1.165607	lat,long 52.139888,11.641198	south	Sat Apr 01 16:15:00 2017
+timestep: 0 x: 22 y: 27	dop: 1.028012	lat,long 52.139888,11.641344	east	Sat Apr 01 16:15:00 2017
+timestep: 0 x: 23 y: 27	dop: 1.046781	lat,long 52.139798,11.641344	south	Sat Apr 01 16:15:00 2017
+timestep: 0 x: 23 y: 26	dop: 1.028012	lat,long 52.139798,11.641198	west	Sat Apr 01 16:15:00 2017
+timestep: 0 x: 24 y: 26	dop: 1.028012	lat,long 52.139709,11.641198	south	Sat Apr 01 16:15:00 2017
+timestep: 0 x: 25 y: 26	dop: 1.028012	lat,long 52.139619,11.641198	south	Sat Apr 01 16:15:00 2017
+timestep: 0 x: 26 y: 26	dop: 1.046781	lat,long 52.139529,11.641198	south	Sat Apr 01 16:15:00 2017
+timestep: 0 x: 26 y: 25	dop: 2.143339	lat,long 52.139529,11.641052	west	Sat Apr 01 16:15:00 2017
+timestep: 0 x: 26 y: 24	dop: 1.028061	lat,long 52.139529,11.640906	west	Sat Apr 01 16:15:00 2017
+timestep: 0 x: 27 y: 24	dop: 0.989524	lat,long 52.139439,11.640906	south	Sat Apr 01 16:15:00 2017
+timestep: 0 x: 28 y: 24	dop: 3.034336	lat,long 52.139349,11.640906	south	Sat Apr 01 16:15:00 2017
+timestep: 0 x: 28 y: 25	dop: 1.451564	lat,long 52.139349,11.641052	east	Sat Apr 01 16:15:00 2017
+timestep: 0 x: 29 y: 25	dop: 2.235836	lat,long 52.139259,11.641052	south	Sat Apr 01 16:15:00 2017
+timestep: 0 x: 29 y: 26	dop: 1.719821	lat,long 52.139259,11.641198	east	Sat Apr 01 16:15:00 2017
+timestep: 0 x: 29 y: 27	dop: 2.287751	lat,long 52.139259,11.641344	east	Sat Apr 01 16:15:00 2017
+timestep: 0 x: 28 y: 27	dop: 0.763342	lat,long 52.139349,11.641344	north	Sat Apr 01 16:15:00 2017
+timestep: 0 x: 28 y: 28	dop: 0.755350	lat,long 52.139349,11.641490	east	Sat Apr 01 16:15:00 2017
+timestep: 0 x: 28 y: 29	dop: 0.755350	lat,long 52.139349,11.641636	east	Sat Apr 01 16:15:00 2017
+timestep: 0 x: 28 y: 30	dop: 1.098070	lat,long 52.139349,11.641782	east	Sat Apr 01 16:15:00 2017
+timestep: 0 x: 28 y: 31	dop: 1.218975	lat,long 52.139349,11.641928	east	Sat Apr 01 16:15:00 2017
+timestep: 0 x: 28 y: 32	dop: 2.000522	lat,long 52.139349,11.642074	east	Sat Apr 01 16:15:00 2017
+timestep: 0 x: 28 y: 33	dop: 2.801415	lat,long 52.139349,11.642220	east	Sat Apr 01 16:15:00 2017
+timestep: 0 x: 28 y: 34	dop: 0.924980	lat,long 52.139349,11.642366	east	Sat Apr 01 16:15:00 2017
+timestep: 0 x: 27 y: 34	dop: 1.354323	lat,long 52.139439,11.642366	north	Sat Apr 01 16:15:00 2017
+timestep: 0 x: 26 y: 34	dop: 1.325164	lat,long 52.139529,11.642366	north	Sat Apr 01 16:15:00 2017
+timestep: 0 x: 26 y: 35	dop: 1.325164	lat,long 52.139529,11.642513	east	Sat Apr 01 16:15:00 2017
+timestep: 0 x: 27 y: 35	dop: 1.678512	lat,long 52.139439,11.642513	south	Sat Apr 01 16:15:00 2017
+timestep: 0 x: 27 y: 36	dop: 1.020625	lat,long 52.139439,11.642659	east	Sat Apr 01 16:15:00 2017
+timestep: 0 x: 27 y: 37	dop: 3.326019	lat,long 52.139439,11.642805	east	Sat Apr 01 16:15:00 2017
+timestep: 0 x: 28 y: 37	dop: 4.537862	lat,long 52.139349,11.642805	south	Sat Apr 01 16:15:00 2017
+timestep: 0 x: 28 y: 36	dop: 1.162986	lat,long 52.139349,11.642659	west	Sat Apr 01 16:15:00 2017
+timestep: 0 x: 29 y: 36	dop: 1.739579	lat,long 52.139259,11.642659	south	Sat Apr 01 16:15:00 2017
+timestep: 0 x: 29 y: 37	dop: 1.664769	lat,long 52.139259,11.642805	east	Sat Apr 01 16:15:00 2017
+timestep: 0 x: 29 y: 38	dop: 1.640608	lat,long 52.139259,11.642951	east	Sat Apr 01 16:15:00 2017
+timestep: 0 x: 29 y: 39	dop: 1.527108	lat,long 52.139259,11.643097	east	Sat Apr 01 16:15:00 2017
+timestep: 0 x: 29 y: 40	dop: 1.087236	lat,long 52.139259,11.643243	east	Sat Apr 01 16:15:00 2017
+timestep: 0 x: 28 y: 40	dop: 1.501380	lat,long 52.139349,11.643243	north	Sat Apr 01 16:15:00 2017
+timestep: 0 x: 27 y: 40	dop: 1.168526	lat,long 52.139439,11.643243	north	Sat Apr 01 16:15:00 2017
+timestep: 0 x: 26 y: 40	dop: 1.390299	lat,long 52.139529,11.643243	north	Sat Apr 01 16:15:00 2017
+timestep: 0 x: 26 y: 41	dop: 0.718732	lat,long 52.139529,11.643389	east	Sat Apr 01 16:15:00 2017
+timestep: 0 x: 26 y: 42	dop: 0.700794	lat,long 52.139529,11.643535	east	Sat Apr 01 16:15:00 2017
+timestep: 0 x: 25 y: 42	dop: 0.767501	lat,long 52.139619,11.643535	north	Sat Apr 01 16:15:00 2017
+timestep: 0 x: 25 y: 43	dop: 0.541806	lat,long 52.139619,11.643681	east	Sat Apr 01 16:15:00 2017
+timestep: 0 x: 24 y: 43	dop: 0.598291	lat,long 52.139709,11.643681	north	Sat Apr 01 16:15:00 2017
+timestep: 0 x: 24 y: 44	dop: 0.558039	lat,long 52.139709,11.643827	east	Sat Apr 01 16:15:00 2017
+timestep: 0 x: 24 y: 45	dop: 0.558039	lat,long 52.139709,11.643973	east	Sat Apr 01 16:15:00 2017
+timestep: 0 x: 24 y: 46	dop: 0.521882	lat,long 52.139709,11.644119	east	Sat Apr 01 16:15:00 2017
+timestep: 0 x: 23 y: 46	dop: 0.554077	lat,long 52.139798,11.644119	north	Sat Apr 01 16:15:00 2017
+timestep: 0 x: 23 y: 47	dop: 0.554077	lat,long 52.139798,11.644265	east	Sat Apr 01 16:15:00 2017
+timestep: 0 x: 23 y: 48	dop: 0.521882	lat,long 52.139798,11.644411	east	Sat Apr 01 16:15:00 2017
+timestep: 0 x: 23 y: 49	dop: 0.505096	lat,long 52.139798,11.644557	east	Sat Apr 01 16:15:00 2017
+timestep: 0 x: 23 y: 50	dop: 0.505096	lat,long 52.139798,11.644703	east	Sat Apr 01 16:15:00 2017
+timestep: 0 x: 22 y: 50	dop: 0.505096	lat,long 52.139888,11.644703	north	Sat Apr 01 16:15:00 2017
+timestep: 0 x: 22 y: 51	dop: 0.541806	lat,long 52.139888,11.644850	east	Sat Apr 01 16:15:00 2017
+timestep: 0 x: 22 y: 52	dop: 0.541806	lat,long 52.139888,11.644996	east	Sat Apr 01 16:15:00 2017
+timestep: 0 x: 22 y: 53	dop: 0.505096	lat,long 52.139888,11.645142	east	Sat Apr 01 16:15:00 2017
+sum dop:  94.948418
+mean dop: 1.265979
+https://maps.googleapis.com/maps/api/staticmap?&zoom=17&size=1024x1024&scale=2&key=&markers=size:tiny|52.140967,11.640760|52.140877,11.640760|52.140787,11.640760|52.140787,11.640614|52.140697,11.640614|52.140607,11.640614|52.140607,11.640760|52.140607,11.640906|52.140517,11.640906|52.140517,11.641052|52.140428,11.641052|52.140428,11.640906|52.140338,11.640906|52.140248,11.640906|52.140158,11.640906|52.140068,11.640906|52.140068,11.641052|52.140068,11.641198|52.139978,11.641198|52.139888,11.641198|52.139888,11.641344|52.139798,11.641344|52.139798,11.641198|52.139709,11.641198|52.139619,11.641198|52.139529,11.641198|52.139529,11.641052|52.139529,11.640906|52.139439,11.640906|52.139349,11.640906|52.139349,11.641052|52.139259,11.641052|52.139259,11.641198|52.139259,11.641344|52.139349,11.641344|52.139349,11.641490|52.139349,11.641636|52.139349,11.641782|52.139349,11.641928|52.139349,11.642074|52.139349,11.642220|52.139349,11.642366|52.139439,11.642366|52.139529,11.642366|52.139529,11.642513|52.139439,11.642513|52.139439,11.642659|52.139439,11.642805|52.139349,11.642805|52.139349,11.642659|52.139259,11.642659|52.139259,11.642805|52.139259,11.642951|52.139259,11.643097|52.139259,11.643243|52.139349,11.643243|52.139439,11.643243|52.139529,11.643243|52.139529,11.643389|52.139529,11.643535|52.139619,11.643535|52.139619,11.643681|52.139709,11.643681|52.139709,11.643827|52.139709,11.643973|52.139709,11.644119|52.139798,11.644119|52.139798,11.644265|52.139798,11.644411|52.139798,11.644557|52.139798,11.644703|52.139888,11.644703|52.139888,11.644850|52.139888,11.644996|52.139888,11.645142
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx version="1.1">
+<wpt lat="52.140967" lon="11.640760"><time>2017-04-T16:15:00Z</time></wpt>
+<wpt lat="52.140877" lon="11.640760"><time>2017-04-T16:15:00Z</time></wpt>
+<wpt lat="52.140787" lon="11.640760"><time>2017-04-T16:15:00Z</time></wpt>
+<wpt lat="52.140787" lon="11.640614"><time>2017-04-T16:15:00Z</time></wpt>
+<wpt lat="52.140697" lon="11.640614"><time>2017-04-T16:15:00Z</time></wpt>
+<wpt lat="52.140607" lon="11.640614"><time>2017-04-T16:15:00Z</time></wpt>
+<wpt lat="52.140607" lon="11.640760"><time>2017-04-T16:15:00Z</time></wpt>
+<wpt lat="52.140607" lon="11.640906"><time>2017-04-T16:15:00Z</time></wpt>
+<wpt lat="52.140517" lon="11.640906"><time>2017-04-T16:15:00Z</time></wpt>
+<wpt lat="52.140517" lon="11.641052"><time>2017-04-T16:15:00Z</time></wpt>
+<wpt lat="52.140428" lon="11.641052"><time>2017-04-T16:15:00Z</time></wpt>
+<wpt lat="52.140428" lon="11.640906"><time>2017-04-T16:15:00Z</time></wpt>
+<wpt lat="52.140338" lon="11.640906"><time>2017-04-T16:15:00Z</time></wpt>
+<wpt lat="52.140248" lon="11.640906"><time>2017-04-T16:15:00Z</time></wpt>
+<wpt lat="52.140158" lon="11.640906"><time>2017-04-T16:15:00Z</time></wpt>
+<wpt lat="52.140068" lon="11.640906"><time>2017-04-T16:15:00Z</time></wpt>
+<wpt lat="52.140068" lon="11.641052"><time>2017-04-T16:15:00Z</time></wpt>
+<wpt lat="52.140068" lon="11.641198"><time>2017-04-T16:15:00Z</time></wpt>
+<wpt lat="52.139978" lon="11.641198"><time>2017-04-T16:15:00Z</time></wpt>
+<wpt lat="52.139888" lon="11.641198"><time>2017-04-T16:15:00Z</time></wpt>
+<wpt lat="52.139888" lon="11.641344"><time>2017-04-T16:15:00Z</time></wpt>
+<wpt lat="52.139798" lon="11.641344"><time>2017-04-T16:15:00Z</time></wpt>
+<wpt lat="52.139798" lon="11.641198"><time>2017-04-T16:15:00Z</time></wpt>
+<wpt lat="52.139709" lon="11.641198"><time>2017-04-T16:15:00Z</time></wpt>
+<wpt lat="52.139619" lon="11.641198"><time>2017-04-T16:15:00Z</time></wpt>
+<wpt lat="52.139529" lon="11.641198"><time>2017-04-T16:15:00Z</time></wpt>
+<wpt lat="52.139529" lon="11.641052"><time>2017-04-T16:15:00Z</time></wpt>
+<wpt lat="52.139529" lon="11.640906"><time>2017-04-T16:15:00Z</time></wpt>
+<wpt lat="52.139439" lon="11.640906"><time>2017-04-T16:15:00Z</time></wpt>
+<wpt lat="52.139349" lon="11.640906"><time>2017-04-T16:15:00Z</time></wpt>
+<wpt lat="52.139349" lon="11.641052"><time>2017-04-T16:15:00Z</time></wpt>
+<wpt lat="52.139259" lon="11.641052"><time>2017-04-T16:15:00Z</time></wpt>
+<wpt lat="52.139259" lon="11.641198"><time>2017-04-T16:15:00Z</time></wpt>
+<wpt lat="52.139259" lon="11.641344"><time>2017-04-T16:15:00Z</time></wpt>
+<wpt lat="52.139349" lon="11.641344"><time>2017-04-T16:15:00Z</time></wpt>
+<wpt lat="52.139349" lon="11.641490"><time>2017-04-T16:15:00Z</time></wpt>
+<wpt lat="52.139349" lon="11.641636"><time>2017-04-T16:15:00Z</time></wpt>
+<wpt lat="52.139349" lon="11.641782"><time>2017-04-T16:15:00Z</time></wpt>
+<wpt lat="52.139349" lon="11.641928"><time>2017-04-T16:15:00Z</time></wpt>
+<wpt lat="52.139349" lon="11.642074"><time>2017-04-T16:15:00Z</time></wpt>
+<wpt lat="52.139349" lon="11.642220"><time>2017-04-T16:15:00Z</time></wpt>
+<wpt lat="52.139349" lon="11.642366"><time>2017-04-T16:15:00Z</time></wpt>
+<wpt lat="52.139439" lon="11.642366"><time>2017-04-T16:15:00Z</time></wpt>
+<wpt lat="52.139529" lon="11.642366"><time>2017-04-T16:15:00Z</time></wpt>
+<wpt lat="52.139529" lon="11.642513"><time>2017-04-T16:15:00Z</time></wpt>
+<wpt lat="52.139439" lon="11.642513"><time>2017-04-T16:15:00Z</time></wpt>
+<wpt lat="52.139439" lon="11.642659"><time>2017-04-T16:15:00Z</time></wpt>
+<wpt lat="52.139439" lon="11.642805"><time>2017-04-T16:15:00Z</time></wpt>
+<wpt lat="52.139349" lon="11.642805"><time>2017-04-T16:15:00Z</time></wpt>
+<wpt lat="52.139349" lon="11.642659"><time>2017-04-T16:15:00Z</time></wpt>
+<wpt lat="52.139259" lon="11.642659"><time>2017-04-T16:15:00Z</time></wpt>
+<wpt lat="52.139259" lon="11.642805"><time>2017-04-T16:15:00Z</time></wpt>
+<wpt lat="52.139259" lon="11.642951"><time>2017-04-T16:15:00Z</time></wpt>
+<wpt lat="52.139259" lon="11.643097"><time>2017-04-T16:15:00Z</time></wpt>
+<wpt lat="52.139259" lon="11.643243"><time>2017-04-T16:15:00Z</time></wpt>
+<wpt lat="52.139349" lon="11.643243"><time>2017-04-T16:15:00Z</time></wpt>
+<wpt lat="52.139439" lon="11.643243"><time>2017-04-T16:15:00Z</time></wpt>
+<wpt lat="52.139529" lon="11.643243"><time>2017-04-T16:15:00Z</time></wpt>
+<wpt lat="52.139529" lon="11.643389"><time>2017-04-T16:15:00Z</time></wpt>
+<wpt lat="52.139529" lon="11.643535"><time>2017-04-T16:15:00Z</time></wpt>
+<wpt lat="52.139619" lon="11.643535"><time>2017-04-T16:15:00Z</time></wpt>
+<wpt lat="52.139619" lon="11.643681"><time>2017-04-T16:15:00Z</time></wpt>
+<wpt lat="52.139709" lon="11.643681"><time>2017-04-T16:15:00Z</time></wpt>
+<wpt lat="52.139709" lon="11.643827"><time>2017-04-T16:15:00Z</time></wpt>
+<wpt lat="52.139709" lon="11.643973"><time>2017-04-T16:15:00Z</time></wpt>
+<wpt lat="52.139709" lon="11.644119"><time>2017-04-T16:15:00Z</time></wpt>
+<wpt lat="52.139798" lon="11.644119"><time>2017-04-T16:15:00Z</time></wpt>
+<wpt lat="52.139798" lon="11.644265"><time>2017-04-T16:15:00Z</time></wpt>
+<wpt lat="52.139798" lon="11.644411"><time>2017-04-T16:15:00Z</time></wpt>
+<wpt lat="52.139798" lon="11.644557"><time>2017-04-T16:15:00Z</time></wpt>
+<wpt lat="52.139798" lon="11.644703"><time>2017-04-T16:15:00Z</time></wpt>
+<wpt lat="52.139888" lon="11.644703"><time>2017-04-T16:15:00Z</time></wpt>
+<wpt lat="52.139888" lon="11.644850"><time>2017-04-T16:15:00Z</time></wpt>
+<wpt lat="52.139888" lon="11.644996"><time>2017-04-T16:15:00Z</time></wpt>
+<wpt lat="52.139888" lon="11.645142"><time>2017-04-T16:15:00Z</time></wpt>
+</gpx>
+

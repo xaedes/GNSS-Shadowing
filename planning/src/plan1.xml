@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<opencv_storage>
+
+<!--
+GridResolution: Resolution in meter of the grid the A*Planner operates on.
+-->
+<!-- <GridResolution>20.0</GridResolution> -->
+<GridResolution>10.0</GridResolution>
+<!-- <GridResolution>5.0</GridResolution> -->
+<!-- <GridResolution>2.0</GridResolution> -->
+<!-- <GridResolution>1.0</GridResolution> -->
+<!-- <GridResolution>0.5</GridResolution> -->
+
+<!--
+SouthNorthDimension: Total width of grid in south-north direction in meter.
+-->
+<SouthNorthDimension>400.0</SouthNorthDimension>
+
+
+<!-- 
+EastWestDimension: Total width of grid in east-west direction in meter.
+-->
+<EastWestDimension>800.0</EastWestDimension>
+
+
+<!--
+GridAltitude: The altitude of the grid plane in meter above WGS84 ellipsoid
+surface.
+-->
+<GridAltitude>55.5</GridAltitude>
+
+
+<!--
+TimeStepInSeconds: The time in seconds that is necessary to advance from one
+grid cell to a neighboring.
+-->
+<!-- <TimeStepInSeconds>300.0</TimeStepInSeconds>  -->
+<TimeStepInSeconds>120.0</TimeStepInSeconds>
+<!-- <TimeStepInSeconds>60.0</TimeStepInSeconds> -->
+
+
+<!--
+     LocalTime: The local start time in format "YYYY-MM-DD HH:MM:SS". Don't
+     specifying LocalTime will result in the current local time being used.
+ -->
+<LocalTime>"2017-04-01 16:00:00"</LocalTime>
+<!-- <LocalTime>"2017-04-01 16:15:00"</LocalTime> -->
+
+
+<!-- 
+TLEFilename: The filename of the TLE data file to be used.
+-->
+<!-- <TLEFilename>data/current.tle</TLEFilename> -->
+<TLEFilename>data/2017-04-01.tle</TLEFilename>
+
+
+<!--
+ObjFilename: The filename of the .obj file containing building data to be used.
+-->
+<ObjFilename>data/uni.obj</ObjFilename>
+
+
+<!--
+BuildingKeyInObjFile: The name of the group inside the obj file that contains
+building data.
+-->
+<BuildingKeyInObjFile>Building</BuildingKeyInObjFile>
+
+
+<!--
+StartGeolocation: The start point for the planner in format Latitude,Longitude
+in degree.
+-->
+<StartGeolocation>"52.140992,11.640801"</StartGeolocation>
+
+
+<!--
+GoalGeolocation: The goal for the planner in format Latitude,Longitude in
+degree.
+-->
+
+<GoalGeolocation>"52.139854,11.645191"</GoalGeolocation>
+
+
+<!--
+MaxHorizontalDOP: Maximum allowed HDOP value. Cells above that threshold are not
+passable.
+-->
+<MaxHorizontalDOP>5</MaxHorizontalDOP>
+
+
+<!--
+CostPerHorizontalDOP: For entering a cell the cost is increased by a
+multiplication of this factor and the cell HDOP.
+-->
+<CostPerHorizontalDOP>1</CostPerHorizontalDOP>
+
+
+<!--
+CostPerGridStep: The cost for (spatially) advancing one step in the grid.
+-->
+
+<CostPerGridStep>1</CostPerGridStep>
+
+
+<!--
+CostPerTimeStep: The cost for one (discretized by TimeStepInSeconds) timestep.
+-->
+
+<CostPerTimeStep>1</CostPerTimeStep>
+
+
+<!--
+CostPerTimeTotal: The cost (at each step) for the time spent total until this
+step.
+-->
+<CostPerTimeTotal>0</CostPerTimeTotal>
+
+
+<!--
+TimeStepsPerStep: The number of timesteps to advance on each step. Setting this
+to 0 disables the time component of the planner. The only other sensible value
+is 1.
+-->
+<TimeStepsPerStep>0</TimeStepsPerStep>
+<!-- <TimeStepsPerStep>1</TimeStepsPerStep> -->
+
+</opencv_storage>
