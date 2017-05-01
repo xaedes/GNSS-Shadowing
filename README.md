@@ -125,11 +125,11 @@ There is known bug with boost.python in mingw that causes the python bindings to
 ## Howto: Where to put header files?
 
 Headers that should be visible from other projects are put in
-the ./project-name/include/project-name folders.
+the `./project-name/include/project-name` folders.
 They need to be added to the following files:
- ./project-name/include/project-name/CMakeLists.txt
- ./project-name/src/CMakeLists.txt
+- `./project-name/include/project-name/CMakeLists.txt`
+- `./project-name/src/CMakeLists.txt`
 
 Headers for classes that should not be visible form other projects
-should be put in the ./project-name/src/ folders.
+should be put in the `./project-name/src/` folders.
 
