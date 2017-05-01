@@ -4,8 +4,8 @@ Predict GNSS Shadowing and HDOP Maps and plan HDOP optimal routes
 
 
 
-Usage of python bindings
-===
+## Usage of python bindings
+
 
 To plan a hdop optimal route:
 ```
@@ -104,8 +104,7 @@ To generate a HDOP map as numpy array:
     assert type(hdop) == np.ndarray
 ```
 
-Build
-===
+## Build
 
 ```
 mkdir build
@@ -113,8 +112,7 @@ cd build
 cmake ..
 ```
 
-Build in msys2
-===
+## Build in msys2
 
 ```
 mkdir build
@@ -124,8 +122,8 @@ cmake .. -G "Unix Makefiles" -DOpenCV_DIR=/mingw64/share/OpenCV/lib
 
 There is known bug with boost.python in mingw that causes the python bindings to not build in this platform.
 
-Howto: Where to put header files?
-===
+## Howto: Where to put header files?
+
 Headers that should be visible from other projects are put in
 the ./<project-name>/include/<project-name> folders.
 They need to be added to the following files:
