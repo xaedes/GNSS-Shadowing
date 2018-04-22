@@ -32,7 +32,7 @@ Additionally the longitude,latitude limits for the extracted world patch need to
               --input_mode OVERPASS
 ```
 
-(osm-program) is "osm2world-windows.bat" for Windows and osm2world.sh for Linux.
+Where (osm-program) is osm2world-windows.bat for Windows and osm2world.sh for Linux.
 
 The resulting file "result.obj" can now be used for GNSS shadowing.
 
