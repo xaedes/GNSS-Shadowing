@@ -143,6 +143,7 @@ assert type(hdop) == np.ndarray
 mkdir build
 cd build
 cmake ..
+make
 ```
 
 ## Build in msys2
@@ -151,6 +152,7 @@ cmake ..
 mkdir build
 cd build
 cmake .. -G "Unix Makefiles" -DOpenCV_DIR=/mingw64/share/OpenCV/lib
+make
 ```
 
 There is known bug with boost.python in mingw that causes the python bindings to not build in this platform.
