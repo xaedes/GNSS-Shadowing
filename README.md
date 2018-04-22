@@ -1,7 +1,37 @@
 # GNSS-Shadowing
 Predict GNSS Shadowing and HDOP Maps and plan HDOP optimal routes 
 
+## Acquiring 3D world data
 
+We use freely available data from OpenStreetMap and the tool OSM2World to extract .obj files.
+
+Go to OSM2World Webpage http://osm2world.org/ and download OSM2World tool.
+
+To get terrain height SRTM data is used. This can be downloaded from:
+https://dds.cr.usgs.gov/srtm/version2_1/SRTM3
+The files are grouped by continents and integer valued longitudes and latitudes.
+E.g. for the test area during the development (52.138749,11.639704 - 52.141384,11.646782) the filename would be N25E011.hgt.zip. The continent would be Eurasia.
+So the complete url would be https://dds.cr.usgs.gov/srtm/version2_1/SRTM3/Eurasia/N52E011.hgt.zip
+This is a zip file that contains the SRTM file with the terrain height information.
+To use this in OSM2World put the extracted SRTM file in a "srtm" subfolder of the OSM2World directory.
+
+OSM2World isn't configured by default to use SRTM data. So you need to create a config file from the example "config.properties" that comes with OSM2World. There is a line that specifies the srtm data folder to use. Uncomment this so the following setting is set:
+srtmDir = srtm
+
+Now OSM2World can be invoked from command line with the newly created config file as parameter.
+Additionally the longitude,latitude limits for the extracted world patch need to be specified:
+
+```
+(osm-program) --config example_config.properties
+--output result.obj \
+--input_bbox 52.138749,11.639704 \
+52.141384,11.646782 \
+--input_mode OVERPASS
+```
+
+(osm-program) is "osm2world-windows.bat" for Windows and osm2world.sh for Linux.
+
+The resulting file "result.obj" can now be used for GNSS shadowing.
 
 
 ## Usage of python bindings
