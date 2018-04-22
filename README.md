@@ -110,7 +110,7 @@ for x in range(0,width):
     for y in range(0,height):
         sumVisible+=mapper.m_visibilityMap.getItem(x,y,z).size()
         
-        # erster sichtbarer satellite als index into mapper.m_sats:
+        # first visible satellite as index into mapper.m_sats:
         print(mapper.m_visibilityMap.getItem(x,y,z)[0]) 
 ```
 
