@@ -24,12 +24,12 @@ srtmDir = srtm
 Now OSM2World can be invoked from command line with the newly created config file as parameter.
 Additionally the longitude,latitude limits for the extracted world patch need to be specified:
 
-```
-(osm-program) --config example_config.properties
---output result.obj \
---input_bbox 52.138749,11.639704 \
-52.141384,11.646782 \
---input_mode OVERPASS
+```shell
+(osm-program) --config example_config.properties \
+              --output result.obj                \
+              --input_bbox 52.138749,11.639704   \
+                           52.141384,11.646782   \
+              --input_mode OVERPASS
 ```
 
 (osm-program) is "osm2world-windows.bat" for Windows and osm2world.sh for Linux.
