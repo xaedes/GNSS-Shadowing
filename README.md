@@ -1,6 +1,10 @@
 # GNSS-Shadowing
 Predict GNSS Shadowing and HDOP Maps and plan HDOP optimal routes 
 
+Written in C++ and has a working python bindings. 
+
+The ideas behind it are simple: Satellite trajectories are computed using SGP4 from publicly available TLE files. The current ones will be downloaded from cmake. Some coordinate system transformations later a simple software shadow rasterization (in layered 2D map) algorithm is performed with 3D data pulled in from .obj files that are generated from OpenStreetMap / OSM2World. Dilution of Precision values are calculated from visible satellites for each rasterization point. The shadow information could also be used to do shadow matching.
+
 ## Acquiring 3D world data
 
 We use freely available data from OpenStreetMap and the tool OSM2World to extract .obj files.
